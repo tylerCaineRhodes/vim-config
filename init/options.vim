@@ -58,6 +58,10 @@ autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or M
 
 let g:sql_type_default="postgresql"
 
+if $TERM == 'screen-256color'
+  set t_RV=[>c
+endif
+
 " Turn off ri tooltips that don't work with Ruby 1.9 yet
 " http://code.google.com/p/macvim/issues/detail?id=342
 if has("gui_running")
