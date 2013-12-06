@@ -8,13 +8,9 @@ function! StripTrailingWhitespace()
   call setpos('.', save_cursor)
 endfunction
 
-" C family
+" Strip whitespace for code files
 autocmd BufWritePre *.m,*.h,*.c,*.mm,*.cpp,*.hpp call StripTrailingWhitespace()
-
-" Ruby, Rails
 autocmd BufWritePre *.rb,*.yml,*.js,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.erb,*.haml call StripTrailingWhitespace()
-
-" Java, PHP
 autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 
 " Highlight JSON files as javascript
