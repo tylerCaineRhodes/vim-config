@@ -47,6 +47,8 @@ set swapfile                    " Keep swapfiles
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 
+set sessionoptions-=options
+
 set hls                         " search with highlights by default
 " Press Space to turn off highlighting and clear any message already
 " displayed.
