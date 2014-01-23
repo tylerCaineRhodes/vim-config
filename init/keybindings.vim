@@ -4,16 +4,6 @@
 let mapleader = ","
 let maplocalleader = ";"
 
-" Gracefully handle holding shift too long after : for common commands
-cabbrev W w
-cabbrev Q q
-cabbrev Wq wq
-cabbrev Tabe tabe
-cabbrev Tabc tabc
-
-"set pastetoggle keybinding
-set pastetoggle=<F2>
-
 " Make Y consistent with D and C
 map Y           y$
 
@@ -44,9 +34,6 @@ map <D-Z>       :later 1<CR>
 nmap <leader>=  gg=G``
 map <silent> <F7> gg=G`` :delmarks z<CR>:echo "Reformatted."<CR>
 
-" Jump to a new line in insert mode
-imap <D-CR>     <Esc>o
-
 " Fast scrolling
 nnoremap <C-e>  3<C-e>
 nnoremap <C-y>  3<C-y>
@@ -57,37 +44,18 @@ map \           :NERDTreeToggle<CR>
 " File tree browser showing current file - pipe (shift-backslash)
 map \|          :NERDTreeFind<CR>
 
-" Previous/next quickfix file listings (e.g. search results)
-map <M-D-Down>  :cn<CR>
-map <M-D-Up>    :cp<CR>
-
-" Previous/next buffers
-map <M-D-Left>  :bp<CR>
-map <M-D-Right> :bn<CR>
-
-"indent/unindent visual mode selection with tab/shift+tab
-vmap <tab> >gv
-vmap <s-tab> <gv
-
 " Tab in insert mode should just indent
 autocmd VimEnter * iunmap <tab>
 
 " FuzzyFinder
-map <D-e>       :FufBuffer<CR>
 map <leader>rb  :FufBuffer<CR>
 
 " Command-T
-map <D-N>       :CommandTFlush<CR>:CommandT<CR>
-map <leader>F   :CommandTFlush<CR>:CommandT<CR>
-nmap <C-p>      :CommandT<CR>
-map <leader>f   :CommandT<CR>
+map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
 map <leader>rt :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
 map <leader>rT :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs bundle exec rdoc -f tags; /usr/local/bin/ctags --append -R public/javascripts<CR>
-
-" Git blame
-map <leader>g   :Gblame<CR>
 
 " Comment/uncomment lines
 map <leader>/   <plug>NERDCommenterToggle
@@ -100,28 +68,11 @@ map <leader>cp :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>
 map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 
-" Run tests
-map <leader>t :wa<CR>:RunTestLine<CR>
-map <leader>T :wa<CR>:RunTest<CR>
-map <leader>tt :wa<CR>:RunTestAgain<CR>
-
-map <F12> :write<CR>:RunTest<CR>
-imap <F12> <ESC><F12>
-map <F11> :write<CR>:RunTestLine<CR>
-imap <F11> <ESC><F11>
-map <F10> :write<CR>:RunTestAgain<CR>
-imap <F10> <ESC><F10>
-map <F9> :write<CR>:RunTestPrevious<CR>
-imap <F9> <ESC><F9>
-
 " Disable middle mouse button, F1
 map <MiddleMouse>   <Nop>
 imap <MiddleMouse>  <Nop>
 map <F1>            <Nop>
 imap <F1>           <Nop>
-
-" Easy access to the shell
-map <Leader><Leader> :!
 
 " AckGrep current word
 map <leader>a :call AckGrep()<CR>
@@ -134,11 +85,6 @@ nmap du :diffupdate<CR>
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
 
-" See init/story_id.vim
-autocmd FileType gitcommit nnoremap <leader>i :Sid<CR>
+" vim-blockle.vim
+let g:blockle_mapping = '<leader>l'
 
-" Make :EP! work like :e!
-cabbrev EP! e!
-
-" A rough opposite of J: inserts new-line. Real opposite of J, though, is: r<CR>
-nmap <C-J> i<CR><ESC>
