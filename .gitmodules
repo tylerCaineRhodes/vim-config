@@ -105,5 +105,5 @@
   url = https://github.com/thoughtbot/vim-rspec.git
 [submodule "bundle/vim-jshint"]
   path = bundle/vim-jshint
-  url = https://github.com/sleistner/vim-jshint.git
+  url = git@github.com:apporchard/vim-jshint.git
 
