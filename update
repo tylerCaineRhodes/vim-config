@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set -e
-set -x
-
-git pull --ff-only
-git submodule sync
-git submodule update --init --recursive
-git ls-files -z --others --exclude-standard bundle | xargs -0 rm -rf
