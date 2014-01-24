@@ -44,9 +44,6 @@ map \           :NERDTreeToggle<CR>
 " File tree browser showing current file - pipe (shift-backslash)
 map \|          :NERDTreeFind<CR>
 
-" Tab in insert mode should just indent
-autocmd VimEnter * iunmap <tab>
-
 " FuzzyFinder
 map <leader>rb  :FufBuffer<CR>
 
