@@ -15,9 +15,6 @@ augroup CB2Abbreviations
   au User AfterBundles Abolish resouce resource
   au User AfterBundles Abolish specifed specified
   au User AfterBundles Abolish unkown unknown
-
-  au User BufEnterRails Rabbrev E:: Eligibility
-  au User BufEnterRails Rabbrev RL:: RemovalLocation
 augroup END
 
 " Edit crontab in-place
