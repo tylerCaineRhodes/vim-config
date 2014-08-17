@@ -34,10 +34,6 @@ map <D-Z>       :later 1<CR>
 nmap <leader>=  gg=G``
 map <silent> <F7> gg=G`` :delmarks z<CR>:echo "Reformatted."<CR>
 
-" Fast scrolling
-nnoremap <C-e>  3<C-e>
-nnoremap <C-y>  3<C-y>
-
 " File tree browser
 map \           :NERDTreeToggle<CR>
 
