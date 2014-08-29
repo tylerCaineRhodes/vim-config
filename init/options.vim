@@ -22,6 +22,7 @@ set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=private/uploads/** " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
+set wildmenu
 
 set list                        " Show whitespace
 set listchars=trail:·
@@ -30,7 +31,6 @@ set showmatch                   " Show matching brackets
 set hidden                      " Allow hidden, unsaved buffers
 set splitright                  " Add new windows towards the right
 set splitbelow                  " ... and bottom
-set wildmode=list:longest       " Bash-like tab completion
 set scrolloff=3                 " Scroll when the cursor is 3 lines from edge
 set cursorline                  " Highlight current line
 
