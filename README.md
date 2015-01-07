@@ -4,12 +4,13 @@
 
     git clone https://github.com/Casecommons/vim-config.git ~/.vim
     cd ~/.vim
-    git submodule update --init
+    git submodule update --init --recursive
     ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/ackrc ~/.ackrc
 
 # Updating
 
-As long as your checkout is kept clean, you can easily update, rebase your local changes and update submodules with:
+Provided your working copy is clean, updating is about the same as installing:
 
-    cd ~/.vim && git pull --rebase ; git submodule update ; cd -
+    cd ~/.vim
+    git pull
+    git submodule update --init --recursive
