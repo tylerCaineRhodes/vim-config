@@ -145,3 +145,9 @@
 [submodule "bundle/jshint.vim"]
 	path = bundle/jshint.vim
 	url = git@github.com:wookiehangover/jshint.vim.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git
+[submodule "bundle/tslime.vim/plugin"]
+	path = bundle/tslime.vim/plugin
+	url = git@github.com:kikijump/tslime.vim.git
