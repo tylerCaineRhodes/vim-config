@@ -118,9 +118,6 @@
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim.git
-[submodule "bundle/ag.vim"]
-	path = bundle/ag.vim
-	url = https://github.com/epmatsw/ag.vim.git
 [submodule "bundle/vim-blockle"]
 	path = bundle/vim-blockle
 	url = https://github.com/jgdavey/vim-blockle.git
