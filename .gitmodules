@@ -139,9 +139,6 @@
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
-[submodule "bundle/jshint.vim"]
-	path = bundle/jshint.vim
-	url = git@github.com:wookiehangover/jshint.vim.git
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = https://github.com/thoughtbot/vim-rspec.git
