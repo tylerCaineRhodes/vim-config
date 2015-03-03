@@ -140,3 +140,6 @@ nnoremap <leader>i :Sid<CR>
 
 " Make :EP! work like :e!
 cabbrev EP! e!
+
+" A rough opposite of J: inserts new-line. Real opposite of J, though, is: r<CR>
+nmap <C-J> i<CR><ESC>
