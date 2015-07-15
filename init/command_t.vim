@@ -6,3 +6,5 @@ let g:CommandTMaxFiles=20000
 if &term =~ "xterm" || &term =~ "screen"
   let g:CommandTCancelMap=['<ESC>']
 end
+
+let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*"
