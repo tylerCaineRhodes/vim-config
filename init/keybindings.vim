@@ -134,9 +134,8 @@ nmap du :diffupdate<CR>
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
 
-" inserts [#SID] into your commit message,
-" assuming your branches follow the naming scheme: team_SID_description
-nnoremap <leader>i :Sid<CR>
+" See init/story_id.vim
+autocmd FileType gitcommit nnoremap <leader>i :Sid<CR>
 
 " Make :EP! work like :e!
 cabbrev EP! e!
