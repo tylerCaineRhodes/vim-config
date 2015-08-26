@@ -1,4 +1,6 @@
-# Installation
+# Case Commons Vim config
+
+## Installation
 
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
@@ -7,7 +9,7 @@
     git submodule update --init --recursive
     ln -s ~/.vim/vimrc ~/.vimrc
 
-# Updating
+## Updating
 
 Provided your working copy is clean, updating is about the same as installing:
 
