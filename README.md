@@ -11,8 +11,7 @@
 
 ## Updating
 
-Provided your working copy is clean, updating is about the same as installing:
+Provided your working copy is clean, updating is simple:
 
     cd ~/.vim
-    git pull
-    git submodule update --init --recursive
+    ./update
