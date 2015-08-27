@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+set -x
+
+ROOT="$(cd "$(dirname "$0")"; pwd)"
+
+git submodule update --init --recursive
+(cd "$ROOT/bundle/command-t/ruby/command-t" && false && ruby extconf.rb && make)
+ln -s "$ROOT/vimrc" ~/.vimrc

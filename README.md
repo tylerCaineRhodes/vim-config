@@ -2,12 +2,11 @@
 
 ## Installation
 
-(Re)move ~/.vim and ~/.vimrc if you have them already, and run:
+Clone the repo and run the install script:
 
     git clone https://github.com/Casecommons/vim-config.git ~/.vim
     cd ~/.vim
-    git submodule update --init --recursive
-    ln -s ~/.vim/vimrc ~/.vimrc
+    ./install
 
 ## Updating
 
