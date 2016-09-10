@@ -95,3 +95,6 @@
   path = bundle/vim-coffee-script
   url = https://github.com/kchmck/vim-coffee-script.git
 
+[submodule "bundle/vim-side-search"]
+	path = bundle/vim-side-search
+	url = https://github.com/ddrscott/vim-side-search.git
