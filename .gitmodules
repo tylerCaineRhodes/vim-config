@@ -94,7 +94,15 @@
 [submodule "bundle/vim-coffee-script"]
   path = bundle/vim-coffee-script
   url = https://github.com/kchmck/vim-coffee-script.git
-
 [submodule "bundle/vim-side-search"]
-	path = bundle/vim-side-search
-	url = https://github.com/ddrscott/vim-side-search.git
+  path = bundle/vim-side-search
+  url = https://github.com/ddrscott/vim-side-search.git
+  path = bundle/regreplop
+  url = https://github.com/vim-scripts/regreplop.vim.git
+[submodule "bundle/FuzzyFinder"]
+  path = bundle/FuzzyFinder
+  url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/l9"]
+  path = bundle/l9
+  url = https://github.com/vim-scripts/L9.git
+
