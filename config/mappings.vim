@@ -86,8 +86,8 @@ vmap <leader>a :call AckVisual()<CR>
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>
 
-" Gundo.vim
-map <leader>u :GundoToggle<CR>
+" Undotree
+map <leader>u :UndotreeToggle<CR>
 
 " vim-blockle.vim
 let g:blockle_mapping = '<leader>l'
