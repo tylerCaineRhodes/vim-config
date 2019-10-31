@@ -13,15 +13,15 @@
 " come first or last, like Pathogen and sourcing the machine-local config.
 " Instead, add it to one of the files in .vim/init, or create a new one.
 
-set nocompatible
+source ~/.vim/config/init.vim
+source ~/.vim/config/settings.vim
+source ~/.vim/config/filetypes.vim
+source ~/.vim/config/mappings.vim
+source ~/.vim/config/plugins.vim
 
-execute pathogen#infect()
-
-syntax on
-filetype plugin indent on
-
-runtime! init/**.vim
+runtime! ~/.vim/config/init/**.vim
 
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+

@@ -18,7 +18,7 @@
   url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/nerdtree"]
   path = bundle/nerdtree
-  url = https://github.com/DanielleSucher/nerdtree.git
+  url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/nerdcommenter"]
   path = bundle/nerdcommenter
   url = https://github.com/scrooloose/nerdcommenter.git
@@ -58,9 +58,6 @@
 [submodule "bundle/vim-ruby"]
   path = bundle/vim-ruby
   url = https://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/gundo"]
-  path = bundle/gundo
-  url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/syntastic"]
   path = bundle/syntastic
   url = https://github.com/scrooloose/syntastic.git
@@ -94,7 +91,21 @@
 [submodule "bundle/vim-coffee-script"]
   path = bundle/vim-coffee-script
   url = https://github.com/kchmck/vim-coffee-script.git
-
 [submodule "bundle/vim-side-search"]
-	path = bundle/vim-side-search
-	url = https://github.com/ddrscott/vim-side-search.git
+  path = bundle/vim-side-search
+  url = https://github.com/ddrscott/vim-side-search.git
+  path = bundle/regreplop
+  url = https://github.com/vim-scripts/regreplop.vim.git
+[submodule "bundle/FuzzyFinder"]
+  path = bundle/FuzzyFinder
+  url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/l9"]
+  path = bundle/l9
+  url = https://github.com/vim-scripts/L9.git
+[submodule "bundle/RootIgnore"]
+  path = bundle/RootIgnore
+  url = https://github.com/octref/RootIgnore.git
+[submodule "bundle/undotree"]
+  path = bundle/undotree
+  url = https://github.com/mbbill/undotree.git
+
