@@ -19,7 +19,7 @@ source ~/.vim/config/filetypes.vim
 source ~/.vim/config/mappings.vim
 source ~/.vim/config/plugins.vim
 
-runtime! ~/.vim/config/init/**.vim
+runtime config/init/**.vim
 
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
