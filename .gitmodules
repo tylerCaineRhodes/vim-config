@@ -110,3 +110,6 @@
   path = bundle/undotree
   url = https://github.com/mbbill/undotree.git
 
+[submodule "bundle/vim-ripgrep"]
+	path = bundle/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep.git
