@@ -11,25 +11,8 @@ map Y           y$
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
 
-vmap <leader>so :sort<CR>
-
-" Split screen vertically
+" Split screen
 map <leader>v   :vsp<CR>
-map <leader>sv  :vsp<CR>
-
-" Split screen horizontally
-map <leader>sh  :sp<CR>
-
-" Move between screens
-
-" rotate through every split (vertical and horizontal)
-map <leader>sr  <C-W>w
-
-" use <leader> + AWSD instead of <leader> + HJKL
-map <leader>sa  <C-W>h
-map <leader>sw  <C-W>k
-map <leader>ss  <C-W>j
-map <leader>sd  <C-W>l
 
 " Open .vimrc file in new tab. Think Command + , [Preferences...] but with Shift.
 map <D-<>       :tabedit ~/.vimrc<CR>
