@@ -30,6 +30,9 @@ set cursorline                  " Highlight current line
 
 set laststatus=2                " Always show statusline
 
+" Include git branch in statusline.
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+
 set incsearch                   " Incremental search
 set history=1024                " History size
 set ignorecase
