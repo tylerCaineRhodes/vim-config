@@ -75,6 +75,11 @@ Brace yourself, it's time to toggle your ruby blocks!
 #### Mappings:
 - <leader\>l Convert between do/end and {} ruby blocks.
 
+## [vim-bundler](https://github.com/tpope/vim-bundler)
+Lightweight support for Ruby's Bundler.
+
+Add syntax highlighting for bundler, as well as `:Bundle` and `:Bopen` commands.
+
 ## [vim-endwise](https://github.com/tpope/vim-endwise)
 Wisely add "end" in ruby, endfunction/endif/more in vim script, etc.
 
