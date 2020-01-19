@@ -73,9 +73,6 @@
 [submodule "bundle/vim-gitgutter"]
   path = bundle/vim-gitgutter
   url = https://github.com/airblade/vim-gitgutter.git
-[submodule "bundle/vim-cdo"]
-  path = bundle/vim-cdo
-  url = https://github.com/Peeja/vim-cdo.git
 [submodule "bundle/vim-rake"]
   path = bundle/vim-rake
   url = https://github.com/tpope/vim-rake.git
