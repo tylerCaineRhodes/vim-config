@@ -20,13 +20,8 @@ map <D-<>       :tabedit ~/.vimrc<CR>
 " Reload .vimrc
 map <leader>rv  :source ~/.vimrc<CR>
 
-" Undo/redo - Doesn't MacVim already have this?
-map <D-z>       :earlier 1<CR>
-map <D-Z>       :later 1<CR>
-
 " Auto-indent whole file
 nmap <leader>=  gg=G``
-map <silent> <F7> gg=G`` :delmarks z<CR>:echo "Reformatted."<CR>
 
 " File tree browser
 map \           :NERDTreeToggle<CR>
