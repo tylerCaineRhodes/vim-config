@@ -33,7 +33,7 @@ map \|          :NERDTreeFind<CR>
 map <leader>rb  :FzfBuffers<CR>
 
 " Fuzzy find files
-nnoremap <expr> <leader>f (len(system('git rev-parse')) ? ':FzfFiles' : ':FzfGFiles')."\<cr>"
+nnoremap <expr> <leader>f (len(system('git rev-parse')) ? ':FzfFiles' : ':FzfGFiles --cached --others --exclude-standard')."\<cr>"
 
 " ctags with rails load path
 map <leader>rt :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
