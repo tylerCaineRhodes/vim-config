@@ -49,15 +49,6 @@ Type the snippet follow by <tab>.
 - `bef` Add a before block in RSpec or Jasmine
 - `it` Add an example in Jasmine
 
-## [syntastic](https://github.com/vim-syntastic/syntastic)
-Syntax checking hacks for vim.
-
-This will integrate with various static analysis tools (e.g. rubocop, jshint), run appropriate checks in the editor based on the type of the current file, and display errors in the side gutter.  It will also list errors in the Location List window.
-
-You can view errors by using the `:Errors` command.
-
-You can open/close the Location List window with `:lopen` and `:lclose`.
-
 ## [undotree](https://github.com/mbbill/undotree)
 The undo history visualizer for VIM
 
