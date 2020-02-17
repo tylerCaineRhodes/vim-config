@@ -1,6 +1,6 @@
 [submodule "bundle/molokai"]
   path = bundle/molokai
-  url = https://github.com/vim-scripts/molokai.git
+  url = https://github.com/tomasr/molokai.git
 [submodule "bundle/vim-rails"]
   path = bundle/vim-rails
   url = https://github.com/tpope/vim-rails.git
