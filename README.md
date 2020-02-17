@@ -49,6 +49,12 @@ Type the snippet follow by <tab>.
 - `bef` Add a before block in RSpec or Jasmine
 - `it` Add an example in Jasmine
 
+## [ALE](https://github.com/dense-analysis/ale)
+ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
+
+#### Mappings:
+- `Ctrl+j` / `Ctrl+k` Jump to next/previous error
+
 ## [undotree](https://github.com/mbbill/undotree)
 The undo history visualizer for VIM
 
@@ -148,4 +154,3 @@ Several convenient key mappings.  For example, `[<space>` and `]<space>` for ins
 - molokai
 - solarized
 - tomorrow
-
