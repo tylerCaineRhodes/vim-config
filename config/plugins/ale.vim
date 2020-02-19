@@ -11,6 +11,6 @@ let g:ale_completion_enabled = 1
 
 set omnifunc=ale#completion#OmniFunc
 
-" Move between errors with Ctrl+j and Ctrl+k
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+" Move between errors with Ctrl+j and Ctrl+Shift+j
+nmap <silent> <C-J> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)

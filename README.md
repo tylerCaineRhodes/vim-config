@@ -60,7 +60,7 @@ Type the snippet follow by <tab>.
 ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
 
 #### Mappings:
-- `Ctrl+j` / `Ctrl+k` Jump to next/previous error
+- `Ctrl+j` / `Ctrl+Shift+j` Jump to next/previous error
 
 ## [undotree](https://github.com/mbbill/undotree)
 The undo history visualizer for VIM
