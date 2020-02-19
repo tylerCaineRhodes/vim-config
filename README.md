@@ -110,6 +110,13 @@ It's like rails.vim without the rails.
 
 Useful for non-Rails projects (e.g. gems).
 
+## [vim-regreplop](https://github.com/vim-scripts/regreplop.vim)
+This plugin provides a operator to replace something(motion/visual) with a
+specified register.
+
+#### Mappings:
+- `Ctrl-K` (followed by a motion) Replace with register
+
 ## [vim-repeat](https://github.com/tpope/vim-repeat)
 Enable repeating supported plugin maps with ".".
 
