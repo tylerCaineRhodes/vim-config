@@ -1,6 +1,3 @@
-[submodule "bundle/molokai"]
-	path = pack/buildgroundwork/opt/molokai
-	url = https://github.com/tomasr/molokai
 [submodule "bundle/vim-rails"]
 	path = pack/buildgroundwork/start/vim-rails
   url = https://github.com/tpope/vim-rails.git
@@ -95,3 +92,6 @@
 [submodule "pack/buildgroundwork/start/regreplop"]
 	path = pack/buildgroundwork/start/regreplop
 	url = https://github.com/vim-scripts/regreplop.vim.git
+[submodule "pack/buildgroundwork/opt/molokai"]
+	path = pack/buildgroundwork/opt/molokai
+	url = https://github.com/tomasr/molokai.git
