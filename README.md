@@ -36,6 +36,13 @@ A tree explorer plugin for vim.
 - \\ Open/close the directory tree.
 - | Open the directory tree focused on the file in the active buffer.
 
+## [regreplop](https://github.com/vim-scripts/regreplop.vim)
+This plugin provides a operator to replace something(motion/visual) with a
+specified register.
+
+#### Mappings:
+- `Ctrl-K` (followed by a motion) Replace with register
+
 ## [snipMate](https://github.com/garbas/vim-snipmate)
 
 snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
@@ -109,13 +116,6 @@ Lots and lots of Rails-specific features.  It's worth reading the documentation 
 It's like rails.vim without the rails.
 
 Useful for non-Rails projects (e.g. gems).
-
-## [vim-regreplop](https://github.com/vim-scripts/regreplop.vim)
-This plugin provides a operator to replace something(motion/visual) with a
-specified register.
-
-#### Mappings:
-- `Ctrl-K` (followed by a motion) Replace with register
 
 ## [vim-repeat](https://github.com/tpope/vim-repeat)
 Enable repeating supported plugin maps with ".".
