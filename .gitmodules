@@ -95,3 +95,9 @@
 [submodule "pack/buildgroundwork/opt/molokai"]
 	path = pack/buildgroundwork/opt/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "pack/buildgroundwork/start/vim-dispatch"]
+	path = pack/buildgroundwork/start/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "pack/buildgroundwork/start/vim-test"]
+	path = pack/buildgroundwork/start/vim-test
+	url = https://github.com/janko/vim-test.git
