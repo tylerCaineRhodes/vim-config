@@ -1,0 +1,2 @@
+:UltiSnipsAddFiletypes javascriptreact.javascript
+
