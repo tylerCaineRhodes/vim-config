@@ -1,0 +1,40 @@
+snippet clog
+console.log('========> $0');
+endsnippet
+
+snippet desc
+describe('$1', () => {
+  $2
+});
+endsnippet
+
+snippet cont
+context('$1', () => {
+  $2
+});
+endsnippet
+
+snippet bef
+beforeEach(() => {
+  $0
+});
+endsnippet
+
+snippet abef
+beforeEach(async () => {
+  $0
+});
+endsnippet
+
+snippet it
+it('$1', () => {
+  $0
+});
+endsnippet
+
+snippet ait
+it('$1', async () => {
+  $0
+});
+endsnippet
+

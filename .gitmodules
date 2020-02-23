@@ -101,3 +101,6 @@
 [submodule "pack/buildgroundwork/start/vim-test"]
 	path = pack/buildgroundwork/start/vim-test
 	url = https://github.com/janko/vim-test.git
+[submodule "pack/buildgroundwork/start/ultisnips"]
+	path = pack/buildgroundwork/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

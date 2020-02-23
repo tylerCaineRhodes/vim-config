@@ -1,0 +1,35 @@
+snippet cdesc
+RSpec.describe $1 do
+  $0
+end
+endsnippet
+
+snippet desc
+describe "#$1" do
+  subject { $2 }
+  $0
+end
+endsnippet
+
+snippet cont
+context "$1" do
+  $0
+end
+endsnippet
+
+snippet let
+let(:$1) { $2 }$0
+endsnippet
+
+snippet bef
+before { $1 }$0
+endsnippet
+
+snippet it
+it { should $1 }$0
+endsnippet
+
+snippet its
+its(:$1) { should $2 }$0
+endsnippet
+
