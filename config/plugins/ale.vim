@@ -16,3 +16,5 @@ set omnifunc=ale#completion#OmniFunc
 " Move between errors with Ctrl+j and Ctrl+Shift+j
 nmap <silent> <C-J> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+cnoreabbrev alf ALEFix
