@@ -8,8 +8,6 @@ let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
 " You should not turn this setting on if you wish to use ALE as a completion
 " source for other completion plugins, like Deoplete.
 let g:ale_completion_enabled = 1
-let g:ale_open_list = 1
-let g:ale_keep_list_window_open = 0
 
 set omnifunc=ale#completion#OmniFunc
 
