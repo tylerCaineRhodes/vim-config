@@ -70,3 +70,9 @@ map <leader>u :UndotreeToggle<CR>
 " vim-blockle.vim
 let g:blockle_mapping = '<leader>l'
 
+" Unmap arrow keys for happy wrists
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+

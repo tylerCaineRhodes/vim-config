@@ -1,5 +1,7 @@
+set background=light
+
 if empty(&guifont)
-  set guifont=Menlo:h16
+  set guifont=Inconsolata-g:h18
 endif
 
 set guioptions-=T               " Remove GUI toolbar
