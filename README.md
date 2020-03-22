@@ -84,6 +84,9 @@ Lightweight support for Ruby's Bundler.
 
 Add syntax highlighting for bundler, as well as `:Bundle` and `:Bopen` commands.
 
+## [vim-dispatch](https://github.com/tpope/vim-dispatch)
+Asynchronous build and test dispatcher
+
 ## [vim-endwise](https://github.com/tpope/vim-endwise)
 Wisely add "end" in ruby, endfunction/endif/more in vim script, etc.
 
@@ -106,6 +109,12 @@ Updated versions of runtime files that ship with vim.
 
 ## [vim-javascript](https://github.com/pangloss/vim-javascript)
 Vastly improved Javascript indentation and syntax support in Vim.
+
+## [vim-json](https://github.com/elzr/vim-json)
+A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing.
+
+## [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
+JSX and TSX syntax pretty highlighting for vim.
 
 ## [vim-rails](https://github.com/tpope/vim-rails)
 Ruby on Rails power tools
@@ -141,6 +150,16 @@ Use `:SideSearch` or `:SS` to search for files.  Customized to work with ripgrep
 Quoting/parenthesizing made simple.
 
 Adds a *surround* action for most motions.  Possibly the greatest text-editing plugin of all time.
+
+## [vim-test](https://github.com/janko/vim-test)
+A Vim wrapper for running tests on different granularities.
+
+#### Mappings
+- <kbd>Ctrl+n</kbd> (`:TestNearest`) Runs the test nearest to the cursor
+- <kbd>Ctrl+f</kbd> (`:TestFile`) Runs all tests in the current file
+- <kbd>Ctrl+s</kbd> (`:TestSuite`) Runs the whole test suite.
+- <kbd>Ctrl+l</kbd> (`:TestLast`) Runs the last test.
+- <kbd>Ctrl+g</kbd> (`:TestVisit`) Visits the test file from which you last run your tests
 
 ## [vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock)
 A custom text object for selecting ruby blocks.
