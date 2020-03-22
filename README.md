@@ -43,11 +43,11 @@ specified register.
 #### Mappings:
 - `Ctrl-K` (followed by a motion) Replace with register
 
-## [snipMate](https://github.com/garbas/vim-snipmate)
+## [ultisnips](https://github.com/sirver/UltiSnips)
 
-snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
+The ultimate snippet solution for Vim.
 
-Type the snippet follow by <tab>.
+Type the snippet followed by <kbd>tab</kbd><kbd>.</kbd>
 
 #### List of custom snippets (incomplete):
 - `f` Add a function definition in JavaScript
