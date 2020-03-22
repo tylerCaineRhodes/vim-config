@@ -8,6 +8,12 @@ Clone the repo and run the install script:
 
 # Included plugins
 
+## [ALE](https://github.com/dense-analysis/ale)
+ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
+
+#### Mappings:
+- `Ctrl+j` / `Ctrl+Shift+j` Jump to next/previous error
+
 ## [fzf](https://github.com/junegunn/fzf)
 🌸 A command-line fuzzy finder
 
@@ -55,12 +61,6 @@ Type the snippet followed by <kbd>tab</kbd><kbd>.</kbd>
 - `cont` Add a context block in RSpec or Jasmine
 - `bef` Add a before block in RSpec or Jasmine
 - `it` Add an example in Jasmine
-
-## [ALE](https://github.com/dense-analysis/ale)
-ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
-
-#### Mappings:
-- `Ctrl+j` / `Ctrl+Shift+j` Jump to next/previous error
 
 ## [undotree](https://github.com/mbbill/undotree)
 The undo history visualizer for VIM
