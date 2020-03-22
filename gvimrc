@@ -11,3 +11,6 @@ set guicursor=a:blinkon0        " Turn off the blinking cursor
 
 set noballooneval
 
+if filereadable($HOME . "/.gvimrc.local")
+  source ~/.gvimrc.local
+endif
