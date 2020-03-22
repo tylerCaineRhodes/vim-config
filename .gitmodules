@@ -104,3 +104,6 @@
 [submodule "pack/buildgroundwork/start/ultisnips"]
 	path = pack/buildgroundwork/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/buildgroundwork/start/vim-tmux-focus-events"]
+	path = pack/buildgroundwork/start/vim-tmux-focus-events
+	url = git://github.com/tmux-plugins/vim-tmux-focus-events.git
