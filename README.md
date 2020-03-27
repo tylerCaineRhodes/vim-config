@@ -176,6 +176,13 @@ Pairs of handy bracket mappings.
 
 Several convenient key mappings.  For example, <kbd>[</kbd><kbd>space</kbd> and <kbd>]</kbd><kbd>space</kbd> for inserting newlines, and <kbd>[</kbd><kbd>e</kbd> and <kbd>]</kbd><kbd>e</kbd> for swapping lines.
 
+## [vitality.vim](https://github.com/sjl/vitality.vim)
+(Vit)ality is a plugin that makes (V)im play nicely with (i)Term 2 and (t)mux.
+
+Now Vim can save when iTerm 2 loses focus, even if it's inside tmux!
+
+It also handles switching the cursor to a bar shaped one when in insert mode, and restoring it when not.
+
 # Color schemes
 - molokai
 - solarized

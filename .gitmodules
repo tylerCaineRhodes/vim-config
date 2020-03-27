@@ -110,3 +110,6 @@
 [submodule "pack/buildgroundwork/start/vim-json"]
 	path = pack/buildgroundwork/start/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "pack/buildgroundwork/start/vitality.vim"]
+	path = pack/buildgroundwork/start/vitality.vim
+	url = https://github.com/sjl/vitality.vim.git
