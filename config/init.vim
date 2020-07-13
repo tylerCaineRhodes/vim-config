@@ -14,5 +14,3 @@ set foldmethod=manual
 
 set visualbell
 
-let g:ale_ruby_rubocop_executable="./bin/rubocop"
-
