@@ -108,7 +108,13 @@ Vim runtime files for Haml, Sass, and SCSS.
 Updated versions of runtime files that ship with vim.
 
 ## [vim-javascript](https://github.com/pangloss/vim-javascript)
-Vastly improved Javascript indentation and syntax support in Vim.
+Vastly improved JavaScript indentation and syntax support in Vim.
+
+## [vim-js-arrow-function](https://github.com/mvolkmann/vim-js-arrow-function)
+Ability to toggle JavaScript functions to-and-from arrow functions and toggle their braces.
+
+#### Mappings
+- <kbd>leader</kbd><kbd>l</kbd> Toggle braces on an arrow function
 
 ## [vim-json](https://github.com/elzr/vim-json)
 A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing.
