@@ -63,7 +63,7 @@ map <leader>a :FzfRg<CR>
 nmap du :diffupdate<CR>
 
 " Undotree
-map <leader>u :UndotreeToggle<CR>
+map <leader>u :UndotreeToggle<CR> :UndotreeFocus<CR>
 
 " vim-blockle.vim
 let g:blockle_mapping = '<leader>l'
