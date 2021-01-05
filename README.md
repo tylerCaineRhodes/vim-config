@@ -14,6 +14,9 @@ ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking an
 #### Mappings:
 - <kbd>Ctrl+j</kbd> / <kbd>Ctrl+Shift+j</kbd> Jump to next/previous error
 
+## [csv.vim](https://github.com/chrisbra/csv.vim)
+A Filetype plugin for csv files 
+
 ## [fzf](https://github.com/junegunn/fzf)
 🌸 A command-line fuzzy finder
 
