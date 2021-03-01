@@ -112,3 +112,6 @@
 [submodule "pack/buildgroundwork/start/csv.vim"]
 	path = pack/buildgroundwork/start/csv.vim
 	url = https://github.com/chrisbra/csv.vim.git
+[submodule "pack/buildgroundwork/start/vim-scala"]
+	path = pack/buildgroundwork/start/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
