@@ -1,0 +1,25 @@
+snippet desc
+with description("$1") as self:
+    $0
+endsnippet
+
+snippet it
+with it("$1"):
+    $0
+endsnippet
+
+snippet bef
+with before.each:
+    $0
+endsnippet
+
+snippet cont
+with context("$1"):
+    $0
+endsnippet
+
+snippet patch
+with patch("$1") as $2:
+    $0
+endsnippet
+
