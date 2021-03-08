@@ -4,13 +4,13 @@ endsnippet
 
 snippet desc
 describe('$1', () => {
-  $2
+  $0
 });
 endsnippet
 
 snippet cont
 context('$1', () => {
-  $2
+  $0
 });
 endsnippet
 
@@ -38,3 +38,18 @@ it('$1', async () => {
 });
 endsnippet
 
+snippet imp
+import { $1 } from '$2';$0
+endsnippet
+
+snippet impo
+import $1 from '$2';$0
+endsnippet
+
+snippet exp
+export $0
+endsnippet
+
+snippet expo
+export { $1 } from '$2';$0
+endsnippet
