@@ -138,6 +138,9 @@ It's like rails.vim without the rails.
 
 Useful for non-Rails projects (e.g. gems).
 
+## [vim-rbenv](https://github.com/tpope/vim-rbenv)
+Minimal rbenv support
+
 ## [vim-repeat](https://github.com/tpope/vim-repeat)
 Enable repeating supported plugin maps with ".".
 
