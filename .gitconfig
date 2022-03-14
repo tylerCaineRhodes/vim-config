@@ -1,0 +1,2 @@
+[alias]
+  smold = !"git diff --staged | grep '\\-Subproject commit' | sed 's/\\-Subproject commit //' | tr -d '\\n' | pbcopy && echo \"Copied `pbpaste`\""
