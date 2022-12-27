@@ -2,6 +2,9 @@
 
 let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
 
+" Turn off floating virtual text
+let g:ale_virtualtext_cursor=0
+
 " Enable completion where available.
 " This setting must be set before ALE is loaded.
 "
