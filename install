@@ -9,3 +9,5 @@ cd "$ROOT"
 git submodule update --init --recursive
 ln -sf "$ROOT/vimrc" ~/.vimrc
 ln -sf "$ROOT/gvimrc" ~/.gvimrc
+
+git config include.path "../.gitconfig"
