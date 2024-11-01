@@ -1,4 +1,4 @@
-colorscheme solarized
+colorscheme Tomorrow-Night-Eighties
 
 set ruler
 set showcmd

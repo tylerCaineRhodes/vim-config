@@ -55,9 +55,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 set autowriteall                " Save when doing various buffer-switching things.
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
-set background=dark
-colorscheme solarized
-
 if $TERM == 'screen-256color'
   set t_RV=[>c
 endif

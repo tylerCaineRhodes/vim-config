@@ -1,5 +1,3 @@
-set background=light
-
 if empty(&guifont)
   set guifont=Inconsolata-g:h18
 endif
